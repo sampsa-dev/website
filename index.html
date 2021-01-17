@@ -1,16 +1,42 @@
 <html>
 <head>
   <title>sampsa.dev</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #75bde0;
+      background-color: #eae7dc;
+      font-family: 'Fira Code', 'Menlo', 'Helvetica', 'Arial';
+    }
+    a, body {
+      color: #e85a4f;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .info {
+      margin-top: 5vh;
+      width: 40vh; 
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <div class="info">
-    <h1>sampsa.dev</h1>
-    <em><a href="mailto:hello@sampsa.dev">hello@sampsa.dev</a></em>
+  <div id="container">
+    <div class="info">
+      <h1>sampsa.dev</h1>
+      <em><a href="mailto:hello@sampsa.dev">hello@sampsa.dev</a>, <a href="https://www.linkedin.com/in/sampsa-kuronen/">linkedin</a></em>
+      <p>I'm a business-focused developer with experience in tens of different business domains, in companies big to small. The things I do are only done because business dictates them as must-haves. No code should be written for developer's sake alone.</p>
+      <p>Principal consultant at Reaktor (adidas, HEINEKEN, Swappie interrim CTO, Nelonen, YLE, Radiot.fi, Volkswagen, SOK), CTO Kide Science, Varusteleka</p>
+      <p>Company and culture (feedback loops, systems), product ownership (and responsibility), business intelligence, team dynamics, agile and coaching, kanban and scrum, marketing (and automation), startups (and funding).</p>
+      <p>Native iOS, hybrid apps (cordova, flutter, electron, react-native), full stack web (react, frp, node, you name it), relational db (like mysql and postgres), nosql (like mongo), AWS, GCP, CI, testing, web analytics</p>
+    </div>
   </div>
 </body>
 </html>
